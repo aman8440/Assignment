@@ -55,19 +55,19 @@ Data url: https://api.dapplooker.com/chart/87596cde-e5df-4a5d-9e72-7592d4861513?
 
 Above given data url will be used in following operations.
 
-  `GET API to return average gas price of day
-  GET API to get number of transactions per block
-  PUT API to transform current structure, we need to remove following from array and return recent 10 transactions:
-  Max Priority Fee Per Gas
-  Status
-  Max Fee Per Gas
-  Nonce
-  Gas Used
-  GET API to get the block details, block should contain following:
-  Timestamp
-  Average gas price of block
-  Number of transaction
-  GET API to take the input as block number and return its timestamp and number of transactions`
+   `GET API to return average gas price of day
+   GET API to get number of transactions per block
+   PUT API to transform current structure, we need to remove following from array and return recent 10 transactions:
+   Max Priority Fee Per Gas
+   Status
+   Max Fee Per Gas
+   Nonce
+   Gas Used
+   GET API to get the block details, block should contain following:
+   Timestamp
+   Average gas price of block
+   Number of transaction
+   GET API to take the input as block number and return its timestamp and number of transactions`
 
   To create a web application backend with the specified REST APIs, you can follow these steps:
 
