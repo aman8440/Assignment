@@ -71,21 +71,21 @@ Above given data url will be used in following operations.
 
   To create a web application backend with the specified REST APIs, you can follow these steps:
 
-    Set Up Your Environment: Ensure you have Node.js installed on your system. You'll also need a text editor or IDE for writing code.
-    
-    Initialize a Node.js Project: Create a new directory for your project and run npm init to initialize a new Node.js project. Follow the prompts to set up your package.json file.
-    
-    Install Required Packages: You'll need to install some packages to work with Express.js and make HTTP requests. Install them using npm:
+ Set Up Your Environment: Ensure you have Node.js installed on your system. You'll also need a text editor or IDE for writing code.
+ 
+ Initialize a Node.js Project: Create a new directory for your project and run npm init to initialize a new Node.js project. Follow the prompts to set up your package.json file.
+ 
+ Install Required Packages: You'll need to install some packages to work with Express.js and make HTTP requests. Install them using npm:
 
-     ```npm install express axios ```
-    Create Your Express Application: Create a new JavaScript file (e.g., app.js) where you'll define your Express application.
-    
-    Set Up Express Routes: Define routes for each of the required REST APIs. Use Express's routing capabilities to handle different HTTP methods and paths.
-    
-    Fetch Data from JSON Source: Use the axios library to make HTTP requests to the JSON source URL and fetch the required data.
-    
-    Implement Each API Endpoint: Write the logic for each API endpoint based on the provided requirements. Use the fetched data to generate the responses.
-    
-    Run Your Application: Start your Express server and test your APIs using a tool like Postman or curl.
+  ```npm install express axios ```
+ Create Your Express Application: Create a new JavaScript file (e.g., app.js) where you'll define your Express application.
+ 
+ Set Up Express Routes: Define routes for each of the required REST APIs. Use Express's routing capabilities to handle different HTTP methods and paths.
+ 
+ Fetch Data from JSON Source: Use the axios library to make HTTP requests to the JSON source URL and fetch the required data.
+ 
+ Implement Each API Endpoint: Write the logic for each API endpoint based on the provided requirements. Use the fetched data to generate the responses.
+ 
+ Run Your Application: Start your Express server and test your APIs using a tool like Postman or curl.
 
 ## Problem_3
