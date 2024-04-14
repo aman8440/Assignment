@@ -10,13 +10,13 @@ Having discovered the magical element in Array X, the wizards faced the second p
 Considering yourself as wizard and looking for treasure write an algorithm to solve the puzzle to check if getting treasure is possible or not.
 
 Sample 1:
-''' Array X: 1  2  3  5  5
-Array Y: 5  4  3  2  1
-As 5 is the most significant element in Array X and also present in Array Y. Then output will be true '''
+`Array X: 1  2  3  5  5
+Array Y: 5  4  3  2  1`
+As 5 is the most significant element in Array X and also present in Array Y. Then output will be true
 Sample 1:
-''' Array X: 1  2  3  5  5
-Array Y: 4  3  2  1
-As 5 is the most significant element in Array X and it is not present in Array Y. Then output will be false '''
+`Array X: 1  2  3  5  5
+Array Y: 4  3  2  1`
+As 5 is the most significant element in Array X and it is not present in Array Y. Then output will be false 
 
 ## Problem_1
 
@@ -29,10 +29,10 @@ In the town of ArrayVille, ordinary citizens faced a peculiar puzzle in their da
 Considering you are the programmer, please write a program to solve the problem.
 
 Sample Input/Ouptut:
-''' Input: [1, 2, -3, 3, 1]
-Output: [1, 2, 1] or [3, 1]
+`Input: [1, 2, -3, 3, 1]
+Output: [1, 2, 1] or [3, 1]`
 
-In Array [1,2,-3,3,1], (-3 and 3) and (1, 2, -3) are subsquence making sum as 0 so that is removed resulting output as [1,2,1] or [3, 1] '''
+In Array [1,2,-3,3,1], (-3 and 3) and (1, 2, -3) are subsquence making sum as 0 so that is removed resulting output as [1,2,1] or [3, 1]
 
 ## Problem_2
 
@@ -45,17 +45,17 @@ Write a web application backend with following REST APIs to perform task mention
 JSON Source: https://gist.github.com/realchoubey/25132ad140df2fffd683db85650e0847
 
 Write an GET API to get all table from JSON structure. Read the JSON structure carefully from JSON source, a schema type will be a valid table if below conditions will met for ''' __schema.types[x]: '''
-''' entityDefinition.fields !== null &&
+   `entityDefinition.fields !== null &&
     entityDefinition.fields !== "" &&
     entityDefinition.fields !== undefined &&
     entityDefinition.fields.length > 0 &&
     !this.entitiesToExclude.includes(entityDefinition.name.toLowerCase()) &&
-    !entityDefinition.name.startsWith("_") '''
+    !entityDefinition.name.startsWith("_")`
 Data url: https://api.dapplooker.com/chart/87596cde-e5df-4a5d-9e72-7592d4861513?api_key=4721550ec26a47cabbf1aa0609ab7de3&output_format=json
 
 Above given data url will be used in following operations.
 
-'''GET API to return average gas price of day
+  `GET API to return average gas price of day
   GET API to get number of transactions per block
   PUT API to transform current structure, we need to remove following from array and return recent 10 transactions:
   Max Priority Fee Per Gas
@@ -67,23 +67,25 @@ Above given data url will be used in following operations.
   Timestamp
   Average gas price of block
   Number of transaction
-  GET API to take the input as block number and return its timestamp and number of transactions '''
+  GET API to take the input as block number and return its timestamp and number of transactions`
 
   To create a web application backend with the specified REST APIs, you can follow these steps:
 
-Set Up Your Environment: Ensure you have Node.js installed on your system. You'll also need a text editor or IDE for writing code.
+    Set Up Your Environment: Ensure you have Node.js installed on your system. You'll also need a text editor or IDE for writing code.
+    
+    Initialize a Node.js Project: Create a new directory for your project and run npm init to initialize a new Node.js project. Follow the prompts to set up your package.json file.
+    
+    Install Required Packages: You'll need to install some packages to work with Express.js and make HTTP requests. Install them using npm:
 
-Initialize a Node.js Project: Create a new directory for your project and run npm init to initialize a new Node.js project. Follow the prompts to set up your package.json file.
+     ```npm install express axios ```
+    Create Your Express Application: Create a new JavaScript file (e.g., app.js) where you'll define your Express application.
+    
+    Set Up Express Routes: Define routes for each of the required REST APIs. Use Express's routing capabilities to handle different HTTP methods and paths.
+    
+    Fetch Data from JSON Source: Use the axios library to make HTTP requests to the JSON source URL and fetch the required data.
+    
+    Implement Each API Endpoint: Write the logic for each API endpoint based on the provided requirements. Use the fetched data to generate the responses.
+    
+    Run Your Application: Start your Express server and test your APIs using a tool like Postman or curl.
 
-Install Required Packages: You'll need to install some packages to work with Express.js and make HTTP requests. Install them using npm:
-
-''' npm install express axios '''
-Create Your Express Application: Create a new JavaScript file (e.g., app.js) where you'll define your Express application.
-
-Set Up Express Routes: Define routes for each of the required REST APIs. Use Express's routing capabilities to handle different HTTP methods and paths.
-
-Fetch Data from JSON Source: Use the axios library to make HTTP requests to the JSON source URL and fetch the required data.
-
-Implement Each API Endpoint: Write the logic for each API endpoint based on the provided requirements. Use the fetched data to generate the responses.
-
-Run Your Application: Start your Express server and test your APIs using a tool like Postman or curl.
+## Problem_3
