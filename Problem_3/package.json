@@ -1,0 +1,29 @@
+{
+  "name": "problem_3",
+  "version": "1.0.0",
+  "description": "Assignemnt",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "deploy": "npm install && npm start"
+  },
+  "author": "Aman",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "node-fetch": "^3.3.2"
+  }
+}
